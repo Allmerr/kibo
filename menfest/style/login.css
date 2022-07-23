@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap");
+
+body {
+    height: 100vh;
+}
+
+/* nav */
+.logo-nav {
+    font-family: "Pacifico";
+    letter-spacing: 1px;
+}
+
+.container form {
+    border: solid 1px white;
+    padding: 15px;
+    border-radius: 10px;
+    position: absolute;
+    width: 30%;
+    top: 30%;
+    left: 35%;
+}
+
+.container form input {
+    background-color: transparent;
+}
+
+.container form input:focus,
+.container form input:active {
+    background-color: transparent;
+}
+
+.container form textarea {
+    background-color: transparent;
+}
+
+.container form textarea:focus,
+.container form textarea:active {
+    background-color: transparent;
+}
+
+.container form .form-input {
+    margin-bottom: 10px;
+}
+
+.container form button {
+    width: 100%;
+}
+
+/* responsive breakpoint */
+
+@media (max-width: 1000px) {
+    .container form {
+        width: 50%;
+        left: 25%;
+    }
+}
+
+@media (max-width: 576px) {
+    .container form {
+        width: 90%;
+        left: 5%;
+    }
+}

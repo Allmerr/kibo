@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap");
+/* nav */
+.logo-nav {
+    font-family: "Pacifico";
+    letter-spacing: 2px;
+}
+
+/* aaccordation */
+.fag-container {
+    width: 100%;
+    padding: 20px;
+    border: solid 1px;
+    border-radius: 20px;
+    /* background-color: whitesmoke; */
+}
+
+.fag-el {
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: solid 1px;
+    cursor: pointer;
+}
+
+.fag-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fag-head h3 {
+    font-size: 1.2em;
+}
+
+.fag-el.active p {
+    display: inherit;
+}
+
+.fag-el p {
+    padding: 10px 0;
+    display: none;
+}
+
+.fag-el.active img {
+    transform: rotate(180deg);
+}
+
+.fag-el img {
+    width: 18px;
+}

@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* nav */
+
+.navbar .navbar-brand {
+    font-family: "Pacifico";
+}
+
+.navbar .nav-item button {
+    height: 35px;
+    width: 100px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+    background-image: url("https://source.unsplash.com/1600x900/");
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron .heading {
+    font-family: "Pacifico";
+}
+/* cards */

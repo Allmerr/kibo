@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,400;0,600;0,800;1,200&display=swap");
+
+.logo-nav {
+    font-family: "Pacifico";
+    letter-spacing: 2px;
+}
+
+/* form */
+.container form {
+    border: solid 1px white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container form input {
+    background-color: transparent;
+}
+
+.container form input:focus,
+.container form input:active {
+    background-color: transparent;
+}
+
+.container form textarea {
+    background-color: transparent;
+}
+
+.container form textarea:focus,
+.container form textarea:active {
+    background-color: transparent;
+}
+
+.container form .form-input {
+    margin-bottom: 10px;
+}
